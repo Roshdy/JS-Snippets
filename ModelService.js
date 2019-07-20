@@ -57,8 +57,8 @@ module.exports = {
       }
     }
     catch (err) {
-      sails.log.error('Exception in [compareStructure] : ', err);
-      return false;
+      sails.log.error('Exception in [invalidStructure] : ', err);
+      return true;
     }
   },
 };
